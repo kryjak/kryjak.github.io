@@ -1,0 +1,23 @@
+<div id="news-page" class="news-page">
+  <div class="news-filter-status" id="news-filter-status" hidden>
+    <span class="news-filter-status__text">
+      Filtered by <strong id="news-filter-label"></strong>
+      <span class="news-filter-status__hint">— click the tag again or press Esc to clear</span>
+    </span>
+    <button type="button" class="news-filter-status__clear" id="news-filter-clear">Clear</button>
+  </div>
+
+  {% assign news = site.data.news %}
+
+  {% if news.post_phd.size > 0 %}
+  {% include news-list.html items=news.post_phd %}
+  {% endif %}
+
+  {% if news.post_phd.size > 0 and news.pre_phd.size > 0 %}
+  {% include career-divider.html label=news.divider.label note=news.divider.note %}
+  {% endif %}
+
+  {% if news.pre_phd.size > 0 %}
+  {% include news-list.html items=news.pre_phd %}
+  {% endif %}
+</div>

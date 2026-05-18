@@ -1,0 +1,10 @@
+<div class="career-divider" role="separator">
+  <div class="career-divider__rule">
+    <span class="career-divider__line" aria-hidden="true"></span>
+    <span class="career-divider__label">{{ include.label }}</span>
+    <span class="career-divider__line" aria-hidden="true"></span>
+  </div>
+  {% if include.note %}
+  <p class="career-divider__note">{{ include.note }}</p>
+  {% endif %}
+</div>

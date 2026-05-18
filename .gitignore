@@ -1,0 +1,9 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+*.swp
+.DS_Store
+README*

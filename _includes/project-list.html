@@ -1,0 +1,33 @@
+<ul class="project-list">
+  {% for project in site.data.projects %}
+  <li class="project-list__item">
+    <article class="project-item">
+      {% if project.image %}
+      <a href="{{ project.url | relative_url }}" class="project-item__image-link">
+        <img
+          src="{{ project.image | relative_url }}"
+          alt=""
+          class="project-item__image"
+          loading="lazy"
+        />
+      </a>
+      {% endif %}
+      <div class="project-item__row">
+        <time class="project-item__date" datetime="{{ project.date }}">
+          {{ project.date | date: "%-d %b %Y" }}
+        </time>
+        <span class="project-item__sep" aria-hidden="true">|</span>
+        <h3 class="project-item__title">
+          {% include math-text.html text=project.title %}
+          {% if project.url %}
+          <a class="item-link" href="{{ project.url | relative_url }}">[LINK]</a>
+          {% endif %}
+        </h3>
+      </div>
+      {% if project.description %}
+      <div class="project-item__desc">{{ project.description | markdownify }}</div>
+      {% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ul>

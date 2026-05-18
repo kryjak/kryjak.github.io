@@ -1,0 +1,21 @@
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    <nav class="site-header__nav" aria-label="Primary">
+      <a href="{{ '/about/' | relative_url }}"{% if page.permalink == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.permalink == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/news/' | relative_url }}"{% if page.permalink == '/news/' %} aria-current="page"{% endif %}>News</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.permalink == '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+    </nav>
+    <button
+      type="button"
+      class="theme-toggle"
+      id="theme-toggle"
+      aria-label="Toggle colour mode"
+      aria-pressed="false"
+    >
+      <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+      <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
+    </button>
+  </div>
+</header>

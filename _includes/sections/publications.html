@@ -1,0 +1,13 @@
+{% assign pubs = site.data.publications %}
+
+{% if pubs.post_phd.size > 0 %}
+{% include pub-list.html items=pubs.post_phd %}
+{% endif %}
+
+{% if pubs.post_phd.size > 0 and pubs.pre_phd.size > 0 %}
+{% include career-divider.html label=pubs.divider.label note=pubs.divider.note %}
+{% endif %}
+
+{% if pubs.pre_phd.size > 0 %}
+{% include pub-list.html items=pubs.pre_phd %}
+{% endif %}

@@ -1,0 +1,15 @@
+- date: 2024-12-20
+  title: "Covid-19 Analysis Hub"
+  description: "My BlueDot [Biosecurity Fundamentals](https://bluedot.org/courses/biosecurity) project, a simple web app that pulls Covid-19 epidemiological data from the Delphi group at CMU and lets users explore correlations between different signals, as well as forecasts."
+  url: https://github.com/kryjak/covid19_analysis_hub
+
+- date: 2024-11-11
+  title: "Not all biases are equal – a study of sycophancy and bias in fine-tuned LLMs"
+  description: "My BlueDot [AI Safety Fundamentals](https://bluedot.org/courses/alignment) project, looking into the tradeoff between sycophancy and truthfulness."
+  url: https://www.lesswrong.com/posts/xFZvs4dmkF8mjkLb5/not-all-biases-are-equal-a-study-of-sycophancy-and-bias-in
+
+- date: 2024-05-27
+  title: "WashBench – A Benchmark for Assessing Softening of Harmful Content in LLM-generated Text Summaries"
+  description: "My first ever Apart Hackathon. Was largely repsonsible for coming up with the original idea."
+  url: https://apartresearch.com/project/washbench-a-benchmark-for-assessing-softening-of-harmful-content-in-llm-generated-text-summaries
+

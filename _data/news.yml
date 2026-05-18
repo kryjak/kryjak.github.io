@@ -1,0 +1,220 @@
+divider:
+  label: "Physics"
+  note: "In particle physics, authors are listed alphabetically."
+
+post_phd:
+#  - date:
+#    title: "Vibe-coded a Korean language app"
+#    excerpt: "blabla"
+#    tags: [other]
+
+  - date: 2026-05-16
+    title: "Two papers accepted to the [Technical AI Governance Workshop](https://taigr-workshop.com/) at ICML 2026"
+    excerpt: "Co-authored two papers: 'Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors' (which started as an [Apart hackathon](https://apartresearch.com/project/fingerprinting-all-ai-cluster-io-without-mutually-trusted-processors-d81l) weekend project) and 'Exploring Systems-Thinking Approaches to Loss of Control Risk' (which was the output of one of the [SPAR projects](https://sparai.org/projects/sp26/?search=jakub) I was supervising). Thanks to all collaborators!"
+    tags: [paper]
+
+  - date: 2026-03-23
+    title: "Published a blogpost [On theoretical physics, AI and human creativity](https://jakubkrys.substack.com/p/on-theoretical-physics-ai-and-human)"
+    excerpt: "TLDR: OpenAI released a paper claiming GPT-5.2 derived a result in theoretical physics. By sheer coincidence, the subject of this paper is literally what I did my PhD on. I was impressed with GPT-5.2 and frustrated with the extremely poor level of public discourse around this paper, so I wrote a thorough blogpost about it. I was later told that people enjoyed it and found it useful for calibrating their views on AI capabilities in frontier maths/physics research."
+    tags: [blogpost]
+
+  - date: 2026-05-13
+    title: "Attended an informal one-day 'unconference' on AI Verification in Oxford, UK"
+    excerpt: "Discussed open problems in verification, software and hardware aspects, most pressing directions, strategies for popularising AI Verification research and even red-teaming the whole agenda."
+    tags: [conference]
+
+  - date: 2026-05-01
+    title: "Gave a [talk](https://luma.com/inside-saferai) for an online event organised by BlueDot Impact"
+    excerpt: "A 20-minute online talk covering the risk modelling agenda at SaferAI, as well as the bottlenecks and open questions."
+    tags: [talk]
+
+  - date: 2026-03-24
+    title: "Gave a talk on behalf of AI Safety Poland as part of a [WAIT meetup](https://www.meetup.com/wait-wroclaw-ai-team/events/313616903/?eventOrigin=group_past_events) in Wrocław, Poland"
+    excerpt: "Gave a talk about AI Safety, compute governance, AI regulation, the semiconductor supply chain and geopolitics. About 160 people in attendance. WAIT (Wrocław AI Team) is a community of AI/Data Science researchers, practitioners and enthusiasts."
+    tags: [talk]
+
+  - date: 2026-03-16
+    title: "Attended the AIxBio Symposium in Cambridge, UK"
+    excerpt: "One-day conference organised by the [Cambridge Biosecurity Hub](https://www.cambiohub.org/), in collaboration with the ERA Fellowship. Very interesting (and concerning) talks about latest capabilities of LLMs in bio and wetlab contexts."
+    tags: [conference]
+
+  - date: 2026-03-14
+    title: "Taught one day of the [Orion AI Governance Initiative](https://www.orionaigov.org/)"
+    excerpt: "Orion is a talent development scheme for students interested in working on AI policy/governance, with a focus on AI Safety. Gave a talk about compute governance."
+    tags: [talk, teaching]
+
+  - date: 2026-03-03
+    title: "[AI Safety Poland](https://aisafety.org.pl/en) was [awarded](https://substack.com/home/post/p-194227385) USD 4800 by BlueDot Impact"
+    excerpt: "We received funding through the Rapid Grants programme to organise a series of 4 in-person events in Warsaw, Poznań, Kraków and Wrocław. Thanks to BlueDot for enabling this and thanks to Jakub Nowak for taking care of the application!"
+    tags: [other]
+
+  - date: 2026-03-02
+    title: "Attended the [Alignment Workshop](https://www.far.ai/events/event-list/london-alignment-workshop-2026) in London, UK"
+    excerpt: "Two-day conference organised by FAR AI."
+    tags: [conference]
+
+  - date: 2026-02-15
+    title: "Started supervising 3 [SPAR projects](https://sparai.org/projects/sp26/?search=jakub) at SaferAI"
+    excerpt: "Projects are on: (1) improving risk modelling methodology, (2) LLM forecasters and (3) applying ideas from systems thinking/safety engineering to AI-driven Loss of Control scenarios."
+    tags: [teaching, other]
+
+  - date: 2025-12-12
+    title: "Presented a poster at the [AI and Societal Robustness Conference](https://www.ukaiforum.com/ai-and-societal-robustness-conference-2025) in Cambridge, UK"
+    excerpt: "Poster based on the paper [Toward Quantitative Modeling of Cybersecurity Risks Due to AI Misuse](https://arxiv.org/abs/2512.08864). One-day conference at Jesus College about cybersec, def/acc, AIxBio, evaluations and many other topics surrounding the theme of 'how to prepare our society for advanced AI'."
+    tags: [poster]
+
+  - date: 2025-12-09
+    title: "Contributed to the paper [Toward Quantitative Modeling of Cybersecurity Risks Due to AI Misuse](https://arxiv.org/abs/2512.08864) at SaferAI."
+    excerpt: "Paper on risk modelling cyber misuse using Bayesian Networks and expert elicitation."
+    tags: [paper]
+
+  - date: 2025-11-19
+    title: "Published my [project on hash collisions](https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles) from the [AI Security Bootcamp](https://aisb.dev/2025)"
+    excerpt: "This project won 2nd prize at the bootcamp. TLDR: if you give me any two `.pickle` files, I can make their MD5 hashes collide. I also explain why this doesn't work for `.safetensors`. One of the nerdiest and most enjoyable projects I've ever done, and definitely the most low-level. Not sure about its practical usefulness, though, as nobody uses MD5 anymore (and nobody should be using `.pickle` files!)"
+    tags: [blogpost]
+
+  - date: 2025-10-23
+    title: "Gave an [Introduction to AI Safety](https://luma.com/gslraobm?tk=3mU0WT) online talk for AI Safety Poland"
+    excerpt: "This talk kicked off our biweekly webinar series of which I am the organiser and host. I encourage you to subscribe to our [Luma calendar](https://luma.com/aisafetypl) for news of webinars and more."
+    tags: [talk]
+
+  - date: 2025-09-22
+    title: "Started as a Research Scientist at [SaferAI](https://www.safer-ai.org/)"
+    excerpt: "Focus on risk modelling of AI-enabled cyber misuse and Loss of Control scenarios. Based at [LISA](https://www.safeai.org.uk/), London."
+    tags: [other]
+
+  - date: 2025-08-31
+    title: "Attended the first edition of the [AI Security Bootcamp](https://aisb.dev/2025) in London, UK"
+    excerpt: "A month-long bootcamp on various topics in IT and AI security, e.g.: networking, pentesting, cryptography, Docker security, reverse engineering, cloud security, jailbreaks, prompt injections, membership inference attacks, weight extraction attacks. All of it was super interesting, but also quite hard to follow for me, as it was at a high pace and for people that have more security-relevant background than me. In any case, I enjoyed it very much. Thanks to the organisers! Teaching materials can be found [here](https://github.com/pranavgade20/aisb). *Addendum: my [project on hash collisions](https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles) won 2nd prize at the bootcamp.*"
+    tags: [course]
+
+  - date: 2025-08-17
+    title: "Presented a poster at the [Technical AI Governance Forum](https://www.techgov.ai/) in London, UK"
+    excerpt: "Poster based on my [MATS project](https://arxiv.org/abs/2507.07765). A two-day conference on various issues in technical governance, including agentic oversight, compute governance, evaluations, geopolitics, cybersecurity, verification and forecasting."
+    tags: [conference, poster]
+
+  - date: 2025-08-02
+    title: "Published a policy piece [Internal Warnings, Public Stakes: Strengthening AI Whistleblower Protections in the EU](https://aiwhistleblowerinitiative.substack.com/p/internal-warnings-public-stakes-strengthening)"
+    excerpt: "A piece in which I look into the EU Whistleblowing Directive, analyse where it falls short in the context of AI, stress the importance of whistleblowing for upholding AI regulation, and sketch a path forward. Written and published with the generous support of Karl Koch and the AI Whistleblower Initiative."
+    tags: [blogpost]
+
+  - date: 2025-07-19
+    title: "Attended ICML 2025 in Vancouver, Canada, and gave an oral presentation at the [Technical AI Governance Workshop](https://icml.cc/virtual/2025/workshop/39964)"
+    excerpt: "Talk based on ['Distributed and Decentralised Training: Technical Governance Challenges in a Shifting AI Landscape'](https://arxiv.org/abs/2507.07765). Also attended the accompanying [Post-AGI Civilizational Equilibria](https://www.post-agi.org/vancouver25) workshop."
+    tags: [conference, poster, talk]
+
+  - date: 2025-07-10
+    title: "Published first-author paper ['Distributed and Decentralised Training: Technical Governance Challenges in a Shifting AI Landscape'](https://arxiv.org/abs/2507.07765)"
+    excerpt: "Main output of my MATS project, later accepted as an oral presentation to the [Technical AI Governance Workshop](https://icml.cc/virtual/2025/workshop/39964) at ICML 2025. This is a very policy-oriented document; I also have a much longer and more technical version. Email me if interested."
+    tags: [paper]
+
+  - date: 2025-05-30
+    title: "Attended the [AI, Animals and Digital Minds](https://forum.effectivealtruism.org/posts/HJg3CGW4yBxXhD9x2/ai-animals-and-digital-minds-2025-retrospective) conference in London, UK."
+    excerpt: "Previously called 'AI for Animals'. Particular highlights were Adrià Moret's talk about his paper [AI Welfare Risks](https://link.springer.com/article/10.1007/s11098-025-02343-7), as well as listening to Jeff Sebo [speak](https://www.youtube.com/watch?v=39VVdwdtuYE) for 30 minutes from memory and without stuttering once."
+    tags: [conference]
+
+  - date: 2025-06-08
+    title: "Attended [EAG London 2025](https://www.effectivealtruism.org/ea-global/events/ea-global-london-2025)"
+    excerpt: "My second EAG. Like last time, a hugely positive experience."
+    tags: [conference]
+
+  - date: 2025-04-11
+    title: "Taught one day of the [Orion AI Governance Initiative](https://www.orionaigov.org/)"
+    excerpt: "Orion is a talent development scheme for students interested in working on AI policy/governance, with a focus on AI Safety. Gave a talk about compute governance."
+    tags: [talk, teaching]
+
+  - date: 2025-03-28
+    title: "Attended the [ControlConf](https://www.far.ai/events/event-list/london-controlconf-25) in London, UK"
+    excerpt: "A two-day conference on AI Control hosted by Redwood Research, FAR AI, and the UK AISI."
+    tags: [conference]
+
+  - date: 2025-03-01
+    title: "Attended the [AI for Animals](https://forum.effectivealtruism.org/posts/KWpyRXzHn6JMyZiBn/ai-for-animals-2025-bay-area-retrospective) conference in Berkeley, California."
+    excerpt: "A two-day conference covering topics such as animal welfare, digital minds, consciousness, precision livestock farming, ethics and advocacy. Very interesting, would recommend."
+    tags: [conference]
+
+  - date: 2025-02-23
+    title: "Attended [EA Global: Bay Area 2025](https://www.effectivealtruism.org/ea-global/events/ea-global-bay-area-2025) in Oakland, California"
+    excerpt: "My first EAG. A hugely positive experience. Talks, workshops and 1-1 meetings on a multitude of topics such as AI Safety, effective charitable giving or animal welfare."
+    tags: [conference]
+
+  - date: 2025-02-15
+    title: "Started [AI Safety Poland](https://aisafety.org.pl/en) with 3 co-organisers"
+    excerpt: "We started a Polish community for researchers, practitioners and enthusiasts of AI Safety (and security). To be absolutely transparent, the community (and an older website) did exist before, but it was largely dormant and fragmented. Beginning in February 2025, we initiated a concentrated and ongoing effort to grow the AI Safety capacity and awareness in our country. We run webinars, a reading club, local meetups and a dedicated Slack. I also run 1-1 career consultations for people interested in working on AI Safety. AISPL is available for comments/interviews with journalists."
+    tags: [other]
+
+  - date: 2025-01-06
+    title: "Started MATS in Berkeley, California"
+    excerpt: "Worked on a compute governance project under the supervision of Janet Egan from the Centre for New American Security. Did the extension phase in London, UK, until September."
+    tags: [course]
+
+  - date: 2024-12-20
+    title: "Completed BlueDot's [Biosecurity Fundamentals](https://bluedot.org/courses/biosecurity)"
+    excerpt: "Very interesting course. For my project, I built a simple [web app](https://github.com/kryjak/covid19_analysis_hub) that lets users explore correlations between various epidemiological signals, as well as perform basic epidemiological forecasts."
+    tags: [course]
+
+  - date: 2024-10-20
+    title: "Completed the introductory [course on s-risks](https://centerforreducingsuffering.org/s-risk-fellowship/) from the Centre for Reducing Suffering"
+    excerpt: "A 6-week course introducing the idea of s-risks in contexts like AI, stable totalitarianism or digital minds. Through Tobias Baumann's book [Avoiding the Worst](https://centerforreducingsuffering.org/books/avoiding-the-worst-how-to-prevent-a-moral-catastrophe-by-tobias-baumann/), I also started reading about things like multi-agent cooperation, spitefulness, the Dark Triad and better political systems."
+    tags: [course]
+
+  - date: 2024-10-03
+    title: "Attended [ML4Good](https://ml4good.org/), a 10-day bootcamp on AI Safety in Germany"
+    excerpt: "A very good overview of AI Safety, strategy and basic ML aspects, held in a small village in the German countryside. Met some cool people and still keep in touch/collaborate with some of them."
+    tags: [course]
+
+  - date: 2024-09-10
+    title: "Completed BlueDot's [AI Safety Fundamentals](https://bluedot.org/courses/alignment)"
+    excerpt: "Completed the 8-week (part-time) Technical Alignment course + a 4-week [project](https://bluedot.org/courses/alignment) in which I deliberately fine-tuned an LLM to be sycophantic and looked at how this trades off with truthfulness."
+    tags: [course]
+
+  - date: 2024-07-01
+    title: "Started [Pivotal Fellowship](https://www.pivotal-research.org/fellowship) in London, UK"
+    excerpt: "Worked on understanding jailbreaks through the vision modality, and their lack of transferability between VLMs." 
+    tags: [course]
+
+  - date: 2024-02-01
+    title: "Started [Faculty Fellowship](https://faculty.ai/fellowship-fellows) in London, UK"
+    excerpt: "Worked on input-space jailbreaks on vision-language models." 
+    tags: [course]
+
+pre_phd:
+  - date: 2023-12-15
+    title: "Scientific visit to the [Asia Pacific Center for Theoretical Physics](https://apctp.org/) (APCTP) in Pohang, South Korea"
+    excerpt: "Spent a week at APCTP upon invitation by Dr Heribertus Bayu Hartanto, a collaborator from my PhD."
+    tags: [other]
+
+  - date: 2023-11-09
+    title: "Defended my PhD Thesis"
+    excerpt: "Thesis title: ['Techniques for high-multiplicity scattering amplitudes and applications to precision collider physics'](https://etheses.durham.ac.uk/id/eprint/15354/)."
+    tags: [other]
+
+  - date: 2023-11-08
+    title: 'Co-authored ["Lepton-pair scattering with an off-shell and an on-shell photon at two loops in massless QED"](https://link.springer.com/article/10.1007/JHEP11(2023)041)'
+    excerpt: "Published in the Journal of High Energy Physics."
+    tags: [paper]
+
+  - date: 2022-11-09
+    title: "Gave a talk at the [Higgs 2022](https://indico.cern.ch/event/1086716/) conference in Pisa, Italy"
+    excerpt: '[Talk](https://indico.cern.ch/event/1086716/contributions/5052647/) based on our paper on two-loop helicity amplitudes for $$Hb\bar{b}$$ production.'
+    tags: [conference, talk]
+
+  - date: 2022-09-22
+    title: "Gave a talk at the [Hard Precision for Hard Processes](https://conference.ippp.dur.ac.uk/event/1100/overview) conference in Newcastle, UK"
+    excerpt: '[Talk](https://conference.ippp.dur.ac.uk/event/1100/contributions/5834/) based on our paper on two-loop helicity amplitudes for $$W^\pm \gamma + j$$ production.'
+    tags: [conference, talk]
+
+  - date: 2022-05-05
+    title: "Gave a virtual talk at [ACAT 2021](https://indico.cern.ch/event/855454/)"
+    excerpt: '[Talk](https://indico.cern.ch/event/855454/contributions/4606390/) based on our paper on two-loop helicity amplitudes for $$Hb\bar{b}$$ production. A short overview ["Recent progress for five-particle two-loop scattering amplitudes with an off-shell leg"](https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012151/meta) was published in the "Journal of Physics: Conference Series".'
+    tags: [conference, talk]
+
+  - date: 2022-05-05
+    title: 'Co-authored ["Two-loop leading colour helicity amplitudes for $$W^\pm\gamma + j$$ production at the LHC"](https://link.springer.com/article/10.1007/JHEP05(2022)035)'
+    excerpt: "Published in the Journal of High Energy Physics."
+    tags: [paper]
+
+  - date: 2021-11-02
+    title: 'Co-authored ["Two-loop leading-colour QCD helicity amplitudes for Higgs boson production in association with a bottom-quark pair at the LHC"](https://link.springer.com/article/10.1007/JHEP11(2021)012)'
+    excerpt: "Published in the Journal of High Energy Physics."
+    tags: [paper]

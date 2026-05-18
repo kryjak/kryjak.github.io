@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero hero--home" aria-label="Introduction">
+  <aside class="hero__sidebar">
+    <div class="hero__sidebar-inner">
+      <div class="hero__photo-wrap">
+        <img
+          src="{{ '/assets/images/profile.jpg' | relative_url }}"
+          alt="Profile photo"
+          class="hero__photo"
+          width="160"
+          height="160"
+        />
+      </div>
+    </div>
+  </aside>
+  <div class="hero__main">
+    <h1 class="hero__name">{{ site.author.name }}</h1>
+    <p class="hero__role">{{ site.author.title }}</p>
+    <div class="hero__bio-block">
+      {% for paragraph in site.author.bio %}
+        {{ paragraph | markdownify }}
+      {% endfor %}
+    </div>
+    <nav class="hero__nav" aria-label="Section navigation">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/news/' | relative_url }}">News</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    </nav>
+  </div>
+</section>

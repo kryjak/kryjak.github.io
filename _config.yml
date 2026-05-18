@@ -1,0 +1,57 @@
+title: Jakub Kryś
+description: Personal website of Jakub Kryś
+url: ""
+baseurl: ""
+
+author:
+  name: Jakub Kryś
+  bio:
+    - "Hi, I'm Jakub. I am a research scientist at [SaferAI](https://www.safer-ai.org/), where I work on risk modelling of AI-enabled cyber misuse and Loss of Control scenarios. I have been working in AI Safety since early 2024, on a mixture of technical and governance topics including jailbreaks, compute governance and whistleblowing policy. You can read more about my research interests [here](/about/)."
+    - "I am also one of the lead organisers behind [AI Safety Poland](https://aisafety.org.pl/en), where I am responsible for running our webinar series, career consultations and miscellaneous community building projects."
+    - "In my past life, I did a PhD in theoretical particle physics, specialising in QCD scattering amplitudes. I still think that theoretical physics is the most interesting thing I have ever seen in my life, but it is less important (and urgent) than trying to solve problems of catastrophic risk, global health and inequality, or factory farming. Also, being a professional theoretical physicist at a university is not fun."
+    - "Other things I like: squash, cycling, music (mainly classical and metal, but also all sorts of weird genres), reading non-fiction books (popular science, biographies, WWII history), geopolitics, investigative journalism, long-form podcasts, articles and videos; learning languages (I speak Polish, English, ~Italian, used to know German but forgot everything, a bit of Russian and a bit of Korean; would like to learn Portuguese and Farsi). My favourite food is any type of bread and all things based on hazelnuts. I wish I could do impressions and lived in a village in Swiss or Italian Alps."
+
+  email: jakkrys@gmail.com
+  linkedin: https://www.linkedin.com/in/jakub-krys/
+  github: https://github.com/kryjak
+  substack: https://jakubkrys.substack.com/
+
+accent_color: "#4a9eff"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  news_entries:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: news_entries
+    values:
+      layout: post
+      math: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_LLM.md
+  - vendor

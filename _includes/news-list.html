@@ -1,0 +1,43 @@
+<ul class="news-list">
+  {% for item in include.items %}
+  {% assign detail = nil %}
+  {% if item.slug %}
+  {% assign slug_file = item.slug | append: ".md" %}
+  {% assign detail = site.news_entries | where: "name", slug_file | first %}
+  {% endif %}
+  {% assign item_tags = item.tags | join: " " %}
+  <li class="news-list__item" data-tags="{{ item_tags }}">
+    <article class="news-item">
+      <div class="news-item__row">
+        <time class="news-item__date" datetime="{{ item.date }}">
+          {{ item.date | date: "%-d %b %Y" }}
+        </time>
+        <span class="news-item__sep" aria-hidden="true">|</span>
+        <h3 class="news-item__title">
+          {% if detail and item.title contains '](' %}
+          {% include math-text.html text=item.title %}
+          <a class="item-link" href="{{ detail.url | relative_url }}">[more]</a>
+          {% elsif detail %}
+          <a href="{{ detail.url | relative_url }}">{% include math-text.html text=item.title %}</a>
+          {% else %}
+          {% include math-text.html text=item.title %}
+          {% endif %}
+          {% if item.url %}
+          <a class="item-link" href="{{ item.url }}">[LINK]</a>
+          {% endif %}
+        </h3>
+        {% if item.tags.size > 0 %}
+        <div class="news-item__tags">
+          {% for tag in item.tags %}
+          <button type="button" class="news-tag" data-tag="{{ tag }}">{{ tag }}</button>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if item.excerpt %}
+      <div class="news-item__excerpt">{{ item.excerpt | markdownify }}</div>
+      {% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ul>

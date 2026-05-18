@@ -1,0 +1,15 @@
+<ol class="pub-list">
+  {% for pub in include.items %}
+  <li class="pub-list__item">
+    <article class="pub">
+      <h3 class="pub__title">{% include math-text.html text=pub.title %}</h3>
+      <p class="pub__meta">
+        <span class="pub__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% if pub.venue %}. <em class="pub__venue">{{ pub.venue }}</em>{% endif %}{% if pub.year %}, <span class="pub__year">{{ pub.year }}</span>{% endif %}.
+        {% if pub.url %}
+        <a class="item-link" href="{{ pub.url }}">[LINK]</a>
+        {% endif %}
+      </p>
+    </article>
+  </li>
+  {% endfor %}
+</ol>

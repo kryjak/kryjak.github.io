@@ -1,0 +1,59 @@
+divider:
+  label: "Physics"
+  note: "In particle physics, authors are listed alphabetically."
+
+post_phd:
+  - title: "Exploring Systems-Thinking Approaches to Loss of Control Risk"
+    authors: "A. Carlucci, S. P. Fillingham, J. Walpole, **J. Kryś**"
+    venue: "Poster presentation at the Technical AI Governance Workshop"
+    year: "ICML 2026"
+#   url: 
+#
+  - title: "Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors"
+    authors: "N. Cankaya, **J. Kryś**, J. Ng, F. Krueckel, L. Marks"
+    venue: "Poster presentation at the Technical AI Governance Workshop"
+    year: "ICML 2026"
+#   url: 
+
+  - title: "Toward Quantitative Modeling of Cybersecurity Risks Due to AI Misuse"
+    authors: "S. Barrett, M. Murray, O. Quarks, M. Smith, **J. Kryś**, S. Campos, A. T. Boria, C. Touzet, S. Hayrapet, F. Heiding, O. Nevo, A. Swanda, J. Aguirre, A. B. Gershovich, E. Clay, R. Fetterman, M. Fritz, M. Juarez, V. Mavroudis, H. Papadatos"
+    year: 2025
+    url: https://arxiv.org/abs/2512.08864
+
+  - title: "Distributed and Decentralised Training: Technical Governance Challenges in a Shifting AI Landscape"
+    authors: "**J. Kryś**, Y. Sharma, J. Egan"
+    venue: "Oral presentation at the Technical AI Governance Workshop"
+    year: "ICML 2025"
+    url: https://arxiv.org/abs/2507.07765
+
+pre_phd:
+  - title: "Techniques for high-multiplicity scattering amplitudes and applications to precision collider physics"
+    authors: "J. Kryś"
+    venue: "PhD Thesis"
+    year: 2024
+    url: https://etheses.durham.ac.uk/id/eprint/15354/
+
+  - title: "Lepton-pair scattering with an off-shell and an on-shell photon at two loops in massless QED"
+    authors: "S. Badger, J. Kryś, R. Moodie, S. Zoia"
+    venue: "Journal of High Energy Physics"
+    year: 2023
+    url: https://link.springer.com/article/10.1007/JHEP11(2023)041
+
+  - title: "Recent progress for five-particle two-loop scattering amplitudes with an off-shell leg"
+    authors: "J. Kryś"
+    venue: "Journal of Physics: Conference Series"
+    year: 2023
+    url: https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012151/meta
+
+  - title: 'Two-loop leading colour helicity amplitudes for $$W^\pm\gamma + j$$ production at the LHC'
+    authors: "S. Badger, H. B. Hartanto, J. Kryś, S. Zoia"
+    venue: "Journal of High Energy Physics"
+    year: 2022
+    url: https://link.springer.com/article/10.1007/JHEP05(2022)035
+
+  - title: "Two-loop leading-colour QCD helicity amplitudes for Higgs boson production in association with a bottom-quark pair at the LHC"
+    authors: "S. Badger, H. B. Hartanto, J. Kryś, S. Zoia"
+    venue: "Journal of High Energy Physics"
+    year: 2021
+    url: https://link.springer.com/article/10.1007/JHEP11(2021)012
+
