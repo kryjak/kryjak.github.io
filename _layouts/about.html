@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main class="page-main page-main--subpage about-page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <div class="page-main__content prose about-page__intro">
+    {{ site.data.about.intro | markdownify }}
+  </div>
+  {% include about-sections.html %}
+  {% if site.data.about.outro %}
+  <div class="page-main__content prose about-page__outro">
+    {{ site.data.about.outro | markdownify }}
+  </div>
+  {% endif %}
+  <p class="about-cv"><a href="{{ '/cv/' | relative_url }}" class="btn">Show CV</a></p>
+</main>
+<script src="{{ '/assets/js/about-accordion.js' | relative_url }}" defer></script>

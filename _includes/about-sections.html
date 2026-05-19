@@ -1,0 +1,13 @@
+<div class="about-sections">
+  {% for section in site.data.about.sections %}
+  <details class="about-section">
+    <summary class="about-section__summary">
+      <span class="about-section__chevron" aria-hidden="true">&gt;</span>
+      <span class="about-section__title">{% include math-text.html text=section.title %}</span>
+    </summary>
+    <div class="about-section__body prose">
+      {{ section.body | markdownify }}
+    </div>
+  </details>
+  {% endfor %}
+</div>
