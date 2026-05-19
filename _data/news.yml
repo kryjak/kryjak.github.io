@@ -70,7 +70,7 @@ post_phd:
 
   - date: 2025-11-19
     title: "Published my [project on hash collisions](https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles) from the [AI Security Bootcamp](https://aisb.dev/2025)"
-    excerpt: "This project won 2nd prize at the bootcamp. TLDR: if you give me any two `.pickle` files, I can make their MD5 hashes collide. I also explain why this doesn't work for `.safetensors`. One of the nerdiest and most enjoyable projects I've ever done, and definitely the most low-level. Not sure about its practical usefulness, though, as nobody uses MD5 anymore (and nobody should be using `.pickle` files!)"
+    excerpt: "This project won 2nd prize at the bootcamp. TLDR: if you give me any two `.pickle` files, I can make their MD5 hashes collide. I also explain why this doesn't work for `.safetensors`. One of the nerdiest and most enjoyable projects I've ever done, and definitely the most low-level. Not sure about its practical usefulness, though, as nobody uses MD5 anymore (and nobody should be using `.pickle` files!)."
     tags: [blogpost]
 
   - date: 2025-10-23
