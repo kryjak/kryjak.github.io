@@ -1,5 +1,5 @@
 - date: 2025-11-19
-  title: "Reusable MD5 collisions on `.pickle` files`"
+  title: "Reusable MD5 collisions on `.pickle` files"
   description: "My project from the [AI Security Bootcamp](https://aisb.dev/2025), which won 2nd prize. TLDR: if you give me any two `.pickle` files, I can make their MD5 hashes collide. I also explain why this doesn't work for `.safetensors`. One of the nerdiest and most enjoyable projects I've ever done, and definitely the most low-level. Not sure about its practical usefulness, though, as nobody uses MD5 anymore (and nobody should be using `.pickle` files!)."
   url: https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles
 
@@ -20,6 +20,6 @@
 
 - date: 2024-05-27
   title: "WashBench – A Benchmark for Assessing Softening of Harmful Content in LLM-generated Text Summaries"
-  description: "My first ever Apart Hackathon. Was largely repsonsible for coming up with the original idea."
+  description: "My first ever Apart Hackathon. Was largely responsible for coming up with the original idea."
   url: https://apartresearch.com/project/washbench-a-benchmark-for-assessing-softening-of-harmful-content-in-llm-generated-text-summaries
 

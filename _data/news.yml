@@ -35,7 +35,7 @@ post_phd:
 
   - date: 2026-03-16
     title: "Attended the AIxBio Symposium in Cambridge, UK"
-    excerpt: "One-day conference organised by the [Cambridge Biosecurity Hub](https://www.cambiohub.org/), in collaboration with the ERA Fellowship. Very interesting (and concerning) talks about latest capabilities of LLMs in bio and wetlab contexts."
+    excerpt: "One-day conference organised by the [Cambridge Biosecurity Hub](https://www.cambiohub.org/), in collaboration with the ERA Fellowship. Very interesting (and concerning) talks about the latest capabilities of LLMs in bio and wetlab contexts."
     tags: [conference]
 
   - date: 2026-03-14
@@ -85,7 +85,7 @@ post_phd:
 
   - date: 2025-08-31
     title: "Attended the first edition of the [AI Security Bootcamp](https://aisb.dev/2025) in London, UK"
-    excerpt: "A month-long bootcamp on various topics in IT and AI security, e.g.: networking, pentesting, cryptography, Docker security, reverse engineering, cloud security, jailbreaks, prompt injections, membership inference attacks, weight extraction attacks. All of it was super interesting, but also quite hard to follow for me, as it was at a high pace and for people that have more security-relevant background than me. In any case, I enjoyed it very much. Thanks to the organisers! Teaching materials can be found [here](https://github.com/pranavgade20/aisb). *Addendum: my [project on hash collisions](https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles) won 2nd prize at the bootcamp.*"
+    excerpt: "A month-long bootcamp on various topics in IT and AI security, e.g.: networking, pentesting, cryptography, Docker security, reverse engineering, cloud security, jailbreaks, prompt injections, membership inference attacks, weight extraction attacks. All of it was super interesting, but also quite hard to follow for me, as it was at a high pace and for people who have more security-relevant background than me. In any case, I enjoyed it very much. Thanks to the organisers! Teaching materials can be found [here](https://github.com/pranavgade20/aisb). *Addendum: my [project on hash collisions](https://jakubkrys.substack.com/p/reusable-md5-collisions-on-pickles) won 2nd prize at the bootcamp.*"
     tags: [course]
 
   - date: 2025-08-17
