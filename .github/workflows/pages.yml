@@ -30,7 +30,7 @@ jobs:
       - name: Set last updated from latest commit
         run: |
           mkdir -p _data
-          printf 'date: "%s"\n' "$(git log -1 --format=%Y-%m-%d)" > _data/last_updated.yml
+          printf 'date: "%s"\n' "$(git log -1 --date=short --format=%cd)" > _data/last_updated.yml
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl ""
