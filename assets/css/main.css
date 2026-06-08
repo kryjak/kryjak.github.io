@@ -547,6 +547,36 @@ a:hover {
   color: var(--text-muted);
 }
 
+.pub__tags {
+  margin: 0 0 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pub__tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  white-space: nowrap;
+}
+
+.pub__tag--award {
+  border-color: #c9933a;
+  color: #c9933a;
+}
+
+[data-theme="dark"] .pub__tag--award {
+  border-color: #e0ab55;
+  color: #e0ab55;
+}
+
 .item-link {
   margin-left: 0.25rem;
   color: var(--accent);

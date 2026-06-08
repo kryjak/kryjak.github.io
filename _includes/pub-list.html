@@ -3,6 +3,9 @@
   <li class="pub-list__item">
     <article class="pub">
       <h3 class="pub__title">{% include math-text.html text=pub.title %}</h3>
+      {% if pub.tags %}
+      <p class="pub__tags">{% for tag in pub.tags %}<span class="pub__tag{% if tag == 'Best paper award' %} pub__tag--award{% endif %}">{{ tag }}</span>{% endfor %}</p>
+      {% endif %}
       <p class="pub__meta">
         <span class="pub__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% if pub.venue %}. <em class="pub__venue">{{ pub.venue }}</em>{% endif %}{% if pub.year %}, <span class="pub__year">{{ pub.year }}</span>{% endif %}.
         {% if pub.url %}

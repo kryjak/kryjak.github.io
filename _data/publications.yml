@@ -11,9 +11,10 @@ post_phd:
 #
   - title: "Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors"
     authors: "N. Cankaya, **J. Kryś**, J. Ng, F. Krueckel, L. Marks"
-    venue: "Poster presentation at the Technical AI Governance Workshop"
+    venue: "Technical AI Governance Workshop"
     year: "ICML 2026"
-#   url: 
+    tags: ["Best paper award", "Oral presentation"]
+#   url:
 
   - title: "Toward Quantitative Modeling of Cybersecurity Risks Due to AI Misuse"
     authors: "S. Barrett, M. Murray, O. Quarks, M. Smith, **J. Kryś**, S. Campos, A. T. Boria, C. Touzet, S. Hayrapet, F. Heiding, O. Nevo, A. Swanda, J. Aguirre, A. B. Gershovich, E. Clay, R. Fetterman, M. Fritz, M. Juarez, V. Mavroudis, H. Papadatos"
@@ -22,8 +23,9 @@ post_phd:
 
   - title: "Distributed and Decentralised Training: Technical Governance Challenges in a Shifting AI Landscape"
     authors: "**J. Kryś**, Y. Sharma, J. Egan"
-    venue: "Oral presentation at the Technical AI Governance Workshop"
+    venue: "Technical AI Governance Workshop"
     year: "ICML 2025"
+    tags: ["Oral presentation"]
     url: https://arxiv.org/abs/2507.07765
 
 pre_phd:
